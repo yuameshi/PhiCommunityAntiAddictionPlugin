@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./style.css">
+	<title>游戏实名认证 - PhiCommunity</title>
+</head>
+
+<body>
+	<div class="container">
+		<div class="title">
+			游戏实名认证
+		</div>
+		<div class="content">
+			<div class="description">
+				为响应国家相关规定，游戏用户须通过国家网络游戏防
+				沉迷实名认证系统的身份认证。
+				
+			</div>
+			<div class="inputContainer">
+				<input type="text" id="name" placeholder="真实姓名" required>
+				<input type="number" id="idNum" placeholder="真实身份证号码" required pattern="/^[1-9]\d{5}(18|19|20)\d{2}((0[1-9])|(1[0-2]))(([0-2][1-9])|10|20|30|31)\d{3}[0-9Xx]$/">
+			</div>
+		</div>
+		<button id="confirmBtn">确认</button>
+	</div>
+	<script src="./index.js"></script>
+</body>
+
+</html>
