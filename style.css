@@ -15,7 +15,7 @@ body {
 	outline: none;
 }
 html {
-	background: #000;
+	background: rgba(43, 119, 155, 0.719);
 }
 div.container {
 	height: 300px;
@@ -30,7 +30,7 @@ div.container {
 div.container div.title {
 	width: 100%;
 	padding: 10px;
-	background: linear-gradient(to right, #0173ff, #588de4);
+	background: linear-gradient(to right, #0173ffb7, #588de4, rgba(27, 48, 240, 0.466), #4400ff3d);
 	color: #fff;
 	text-align: center;
 	font-weight: bold;
